@@ -1,6 +1,14 @@
 var ad=prompt("Adinizi yazin")
-if (ad.length>7 || ad=="samir"){
-    ad="Nidavoynu"
+
+switch(ad){
+    case "samir":
+        ad="Nidavoynu";
+        break;
+    case "nurusbala":
+        ad="Balam";
+        break;
+    
+    
 }
 let bal=0
 document.getElementById("greet").innerHTML="Salam "+ad+"!";
