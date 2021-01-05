@@ -18,7 +18,7 @@ document.getElementById("greet").innerHTML="Salam "+ad+"!";
 function vur(){
     bal++;
     document.getElementById("point").innerHTML=bal;
-    if(bal>10){
+    if(bal>30){
         bal++
         document.getElementById("point").innerHTML=bal;
 
