@@ -1,4 +1,7 @@
 var ad=prompt("Adinizi yazin")
+if (ad.length>7 || ad=="samir"){
+    ad="Nidavoynu"
+}
 let bal=0
 document.getElementById("greet").innerHTML="Salam "+ad+"!";
 function vur(){
