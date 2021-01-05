@@ -1,5 +1,8 @@
 var ad=prompt("Adinizi yazin")
+if(ad.length>10){
+    ad="Qonaq"
 
+}
 switch(ad){
     case "samir":
         ad="Nidavoynu";
