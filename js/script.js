@@ -1,5 +1,5 @@
 var ad=prompt("Adinizi yazin")
-if(ad.length>10){
+if(ad.length>10 || ad.length==0){
     ad="Qonaq"
 
 }
